@@ -40,29 +40,29 @@ export default function Home(){
     <a href="#" class="myButton">VER TODOS</a>
     </div>
     <div className="some-text">
-        <div className="what-we-do"><h4>THIS IS</h4> <h1>WHAT WE DO</h1> <h4>EVERYDAY</h4></div>
+        <div className="what-we-do"><h4>THIS IS</h4> <span className="what">WHAT WE DO </span><h4>EVERYDAY</h4></div>
         <div className="somos">
         <p>Somos una agencia de publicidad creativa, especializada en cuatro disciplinas principales. Todo lo que tu marca necesita, lo hacemos. Y lo hacemos bien.</p>
         </div>
     </div>
     <div className="cards-text">
       <div className="card-text">
-        <h3>BRANDING​</h3>
+        <h3 className="ancho">BRANDING​</h3>
         <p>Sabemos que una marca es mucho más que su imagen. Creamos historias, trazamos el camino para el nacimiento y la evolución de ideas y las aterrizamos en soluciones gráficas que capturan la atención de la audiencia.</p>
         <button>CONOCE MAS</button>
       </div>
       <div className="card-text">
-        <h3>MARKETING</h3>
+        <h3 className="ancho">MARKETING</h3>
         <p>Nos enfocamos en crear valor para tus clientes, cultivar a la comunidad para las empresas y elevar su reconocimiento de marca a través de metodologías enfocadas a estrategias digitales, creación de contenido y campañas creativas.</p>
         <button>CONOCE MAS</button>
       </div>
       <div className="card-text">
-        <h3>MULTIMEDIA</h3>
+        <h3 className="ancho">MULTIMEDIA</h3>
         <p>Utilizamos diferentes canales de expresión, desde texto, imágenes, ilustración, animación, edición de sonido y video, cualquier soporte necesario para presentar y comunicar tu marca de la mejor manera.</p>
         <button>CONOCE MAS</button>
       </div>
       <div className="card-text">
-        <h3>WEB</h3>
+        <h3 className="ancho">WEB</h3>
         <p>Creamos sitios web atractivos y funcionales combinando un moderno diseño de interfaz de usuario (UI) con una amigable experiencia de usuario (UX),optimizando su posicionamiento en Google.</p>
         <button>CONOCE MAS</button>
       </div>
@@ -86,15 +86,15 @@ Nuestro equipo está conformado por más de 50 creativos multidisciplinarios ent
     <div className="cards-question">
       <div className="card-question">
         <p>Frank Moreno, Destacado, Marketing, Publicidad</p>
-        <h3>Agencias de Publicidad en México</h3>
+        <h3 className="ancho">Agencias de Publicidad en México</h3>
       </div>
       <div className="card-question">
         <p>Frank Moreno, Destacado, Marketing, Social Media</p>
-        <h3>¿Qué es un Influencer y cuál es su función?</h3>
+        <h3 className="ancho">¿Qué es un Influencer y cuál es su función?</h3>
       </div>
       <div className="card-question">
         <p>Everardo Luna, Destacado, Marketing, Publicidad</p>
-        <h3>9 tipos de agencias de publicidad</h3>
+        <h3 className="ancho">9 tipos de agencias de publicidad</h3>
       </div>
     </div>
     <div className="button">

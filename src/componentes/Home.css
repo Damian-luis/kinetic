@@ -21,6 +21,7 @@
   display:flex;
   gap: 10px;
   padding:50px;
+  flex-wrap: wrap;
 }
 .video{
   height:500px;
@@ -56,13 +57,24 @@
     display: flex;
     justify-content: center;
 }
+.some-text{
+  padding: 40px;
+}
 .what-we-do{
     display: flex;
     justify-content: center;
+    align-items:center;
+    column-gap: 60px;
+}
+.what{
+  font-weight: 900;
+  font-size: 40px;
 }
 .somos{
   width: 60%;
   margin: auto;
+  padding:50px;
+  text-align: center;
 }
 .cards-text{
   width: 80%;
@@ -94,6 +106,7 @@
   width: 60%;
   margin: auto;
   text-align: center;
+  padding: 40px;
 }
 .cards-question{
   width: 90%;
@@ -104,4 +117,58 @@
   width: 30%;
   display: flex;
   flex-wrap: wrap;
+  height: 400px;
+  border: solid 1px black;
+  margin: 5px;
+  padding: 20px;
+}
+.button{
+  padding: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .principal h1{
+    font-size:45px;
+
+  }
+  .imagenes{
+    display:none;
+  }
+  .cards{
+    padding:0px
+  }
+  .somos{
+    width:90%;
+    padding:0px
+  }
+  .cards-text{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+  .card-text{
+    width:100%;
+    padding: 15px;
+  }
+  .random-text{
+    width:100%;
+    padding: 15px;
+  }
+  .cards-question{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+  .card-question{
+    width:100%;
+    padding: 15px;
+  }
+  .ancho{
+    font-weight: 1000;
+  }
 }
