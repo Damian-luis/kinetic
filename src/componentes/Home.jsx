@@ -40,8 +40,10 @@ export default function Home(){
     <a href="#" class="myButton">VER TODOS</a>
     </div>
     <div className="some-text">
-      <h4>THIS IS</h4> <h1>WHAT WE DO</h1> <h4>EVERYDAY</h4><br/>
-      <p>Somos una agencia de publicidad creativa, especializada en cuatro disciplinas principales. Todo lo que tu marca necesita, lo hacemos. Y lo hacemos bien.</p>
+        <div className="what-we-do"><h4>THIS IS</h4> <h1>WHAT WE DO</h1> <h4>EVERYDAY</h4></div>
+        <div className="somos">
+        <p>Somos una agencia de publicidad creativa, especializada en cuatro disciplinas principales. Todo lo que tu marca necesita, lo hacemos. Y lo hacemos bien.</p>
+        </div>
     </div>
     <div className="cards-text">
       <div className="card-text">
@@ -94,7 +96,9 @@ Nuestro equipo está conformado por más de 50 creativos multidisciplinarios ent
         <p>Everardo Luna, Destacado, Marketing, Publicidad</p>
         <h3>9 tipos de agencias de publicidad</h3>
       </div>
-      <a href="#" class="myButton">VER MAS</a>
+    </div>
+    <div className="button">
+    <a href="#" class="myButton">VER MAS</a>
     </div>
     
   </div>)

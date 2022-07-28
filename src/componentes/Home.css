@@ -52,3 +52,56 @@
 	position:relative;
 	top:1px;
 }
+.button{
+    display: flex;
+    justify-content: center;
+}
+.what-we-do{
+    display: flex;
+    justify-content: center;
+}
+.somos{
+  width: 60%;
+  margin: auto;
+}
+.cards-text{
+  width: 80%;
+  margin: auto;
+  display:flex;
+  flex-wrap: wrap;
+}
+.card-text{
+  width: 50%;
+}
+.video-mapa{
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.the-team{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.foto-grupal{
+  height:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.random-text{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.cards-question{
+  width: 90%;
+  display:flex;
+  margin: auto;
+}
+.card-question{
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
