@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.principal h1{
+  font-size:120px;
+  font-weight: 900;
+  font-family: "Mulish", Sans-serif;
+}
+.principal{
+  padding: 100px 50px
+}
+.imagenes{
+  display:flex;
+  gap: 100px;
+  justify-content:center;
+  padding:50px 0px;
+}
+.cards{
+  display:flex;
+  gap: 10px;
+  padding:50px;
+}
+.video{
+  height:500px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #911df0 5%, #bc80ea 100%);
+	background-color:#911df0;
+	border-radius:6px;
+	border:1px solid #7817bd;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #210eb3;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #911df0 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
