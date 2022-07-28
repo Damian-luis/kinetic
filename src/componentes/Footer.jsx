@@ -1,7 +1,21 @@
 import React from 'react';
-import "./Footer.css"
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import {Link} from "react-router-dom";
+import "./Footer.css";
 export default function Footer(){
-    return (<div className="footer">
-        Esto es un footer
-    </div>)
+
+    return <><footer>
+    <div className="footer-left">
+    <p>© 2022 kINETIC. All rights reserved</p> <div className="div-social"><a href="https://www.instagram.com/webleadsok/"><FaInstagramSquare className="social"/></a><a href="https://www.google.com"><FaFacebookF className="social"/></a><a href="https://google.com"><FaLinkedinIn className="social"/></a><a href="https://www.google.com"><FaGithubSquare className="social"/></a></div>
+    </div>
+    <div className="footer-right">
+    <a href=""> Terms  &amp;  Conditions  </a>|
+    <Link to="/privacy-policy">Privacy Policy</Link>
+    
+    </div>
+    
+  </footer> </>
 }

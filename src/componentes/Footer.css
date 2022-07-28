@@ -1,4 +1,112 @@
-.footer{
-    height:200px;
-    background-color: black;
+
+@media screen and (max-width: 683px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#0b0d17;
+            color: white;
+            row-gap:16px;
+            padding: 30px;
+    }
+    .div-social{
+        display: flex;
+        column-gap:25px;
+    }
+    .div-social a{
+        color:#b8becd;
+      
+    }
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        align-items: center;
+    }
+    .footer-right a{
+        color:white;
+        font-size:13px;
+        text-decoration: none
+    }
+    
+    }
+
+
+
+
+@media screen and (min-width: 683px) and (max-width:1000px){
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#0b0d17;
+            color: white;
+            row-gap:16px;
+            padding: 30px;
+    }
+    .div-social{
+        display: flex;
+        column-gap:25px;
+    }
+    .div-social a{
+        color:#b8becd;
+      
+    }
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        align-items: center;
+    }
+    .footer-right a{
+        color:white;
+        font-size:13px;
+        text-decoration: none;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width:5000px){
+    footer{
+        display:flex;
+        justify-content:space-around;
+        background-color:#0b0d17;
+        color: white;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .footer-left{
+        display:flex;
+        align-items:center;
+        column-gap: 80px;
+    }
+    
+    .social{
+        width:20px
+    }
+    .div-social{
+        display:flex;
+        column-gap:25px
+    }
+    .footer-right{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .div-social a{
+        color:#b8becd
+    }
+    .footer-left{
+        display: flex;
+        
+    }
+    .footer-left p{
+        padding-top: 15px;
+    }
+    .footer-right a{
+        color:white;
+        text-decoration: none;
+    }
 }

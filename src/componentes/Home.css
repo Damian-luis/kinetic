@@ -158,6 +158,7 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
+    padding: 15px 0px;
   }
   .card-text{
     width:100%;
@@ -172,12 +173,20 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
   }
   .card-question{
     width:100%;
-    padding: 15px;
+    padding: 25px;
   }
   .ancho{
     font-weight: 1000;
+  }
+  .what-we-do{
+    flex-direction:column;
+  }
+  .what{
+    font-size: 30px;
   }
 }

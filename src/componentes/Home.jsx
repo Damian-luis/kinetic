@@ -99,7 +99,7 @@ Nuestro equipo está conformado por más de 50 creativos multidisciplinarios ent
         <p>Frank Moreno, Destacado, Marketing, Social Media</p>
         <h3 className="ancho">¿Qué es un Influencer y cuál es su función?</h3>
       </div>
-      <div className="card-question" data-aos="fade-left">
+      <div className="card-question" >
         <p>Everardo Luna, Destacado, Marketing, Publicidad</p>
         <h3 className="ancho">9 tipos de agencias de publicidad</h3>
       </div>
