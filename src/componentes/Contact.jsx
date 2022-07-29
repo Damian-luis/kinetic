@@ -93,7 +93,11 @@ function Contact() {
         
     }
 
-  return (
+  return (<>
+  <div className="mensaje">
+  <h1>Get in touch with us</h1>
+  <p>One member of our team will contacto with the following steps</p></div>
+  <div className="formulario">
     <Form onSubmit={sendHandler} id="form-reset">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name</Form.Label>
@@ -125,10 +129,10 @@ function Contact() {
 
       
       
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
+      <button type="submit" className="myButton">Submit</button>
     </Form>
+    </div>
+    </>
   );
 }
 
