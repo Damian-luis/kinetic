@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import "./Contact.css"
-import axios, { Axios } from 'axios';
+import axios from 'axios';
 import { useState } from 'react';
 import swal from "sweetalert";
 function Contact() {
@@ -70,7 +70,7 @@ function Contact() {
                   })
                   await axios.post("https://kineticc.herokuapp.com/enviar",state)
                       
-                       }
+                      }
                       catch(error){}
                     }
                 else{swal("SOMETHING WENT WRONG", "Please complete all required fields before submit", "warning")}
