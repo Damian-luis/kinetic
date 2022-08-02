@@ -85,7 +85,7 @@ export default function Home(){
     </div>
     
 
-    <div className="the-team">
+    <div className="the-team" id="the-team">
       <div className="foto-div">
       <img src={require("../assets/smart-business.jpg")} className="foto"/>
       </div>

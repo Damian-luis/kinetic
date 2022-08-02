@@ -12,7 +12,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"150px"}}>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="/about">Quienes somos</Nav.Link>
+            <Nav.Link href="#the-team">Quienes somos</Nav.Link>
             <Nav.Link href="/contact">Contacto</Nav.Link>
            {/*  <NavDropdown title="Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
