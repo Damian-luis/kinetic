@@ -4,8 +4,10 @@
     font-size: 20px;
     font-weight:900
 }
-
-
+.logo{
+    width: 100px;
+    height: 58px;
+}
 @media only screen and (max-width: 600px) {
     .navbar-brand{
         display:none;

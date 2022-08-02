@@ -9,6 +9,7 @@ import { default as logo5 } from "../assets/5.svg";
 import {useEffect} from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Link } from "react-router-dom";
 export default function Home(){
 
     useEffect(()=>{
@@ -16,7 +17,7 @@ export default function Home(){
     },[])
     return (<div className="App">
     <div className="principal" data-aos="fade-down" data-aos-duration="2000">
-      <h1>AGENCIA DE PUBLICIDAD EN ARGENTINA</h1>
+      <h1>AGENCIA DE PUBLICIDAD</h1>
     </div>
     <div className="imagenes" data-aos="zoom-in">
     <img src={logo1} className="gradient1"/>
@@ -25,26 +26,23 @@ export default function Home(){
     <img src={logo4} className="gradient1"/>
     <img src={logo5} className="gradient1"/>
     </div>
-    <div className="video"><h1>Lugar para algun video</h1></div>
+    <div className="video"><h1>Algunos de nuestros trabajos de branding y marketing digital</h1></div>
     <div className="cards" data-aos="fade-up" data-aos-duration="3000">
-      <div className="cards-column">
+      
+        
         <img src={require("../assets/1.png")} className="card"/>
         <img src={require("../assets/2.png")} className="card"/>
         <img src={require("../assets/3.png")} className="card"/>
-      </div>
-      <div className="cards-column">
         <img src={require("../assets/4.png")} className="card"/>
         <img src={require("../assets/5.png")} className="card"/>
         <img src={require("../assets/6.png")} className="card"/>
-      </div>
-      <div className="cards-column">
         <img src={require("../assets/7.png")} className="card"/>
         <img src={require("../assets/8.png")} className="card"/>
         <img src={require("../assets/9.png")} className="card"/>
-      </div>
+      
     </div>
     <div className="button">
-    <a href="#" class="myButton">VER TODOS</a>
+    <Link to="what-we-do" className="myButton">VER TODOS</Link>
     </div>
     <div className="some-text" data-aos="zoom-out">
         <div className="what-we-do"><h4>THIS IS</h4> <span className="what">WHAT WE DO </span><h4>EVERYDAY</h4></div>
@@ -74,9 +72,26 @@ export default function Home(){
         <button className="myButton">CONOCE MAS</button>
       </div>
     </div>
+    {/* 
     <div className="video-mapa">
       <h1>Lugar para video del mapa</h1>
     </div>
+    */}
+
+
+<div className="clientes-text">
+      <p>Nuestros clientes</p>
+      <p>He aqui algunos de los clientes que han optado por nuestros servicios</p>
+    </div>
+    <div className="clientes">
+        <img src={require("../assets/logos/4.png")} className="logo"/>
+        <img src={require("../assets/logos/5.png")} className="logo"/>
+        <img src={require("../assets/logos/6.png")} className="logo"/>
+        <img src={require("../assets/logos/7.png")} className="logo"/>
+        <img src={require("../assets/logos/9.png")} className="logo"/>
+        <img src={require("../assets/logos/10.png")} className="logo"/>
+    </div>
+
     <div className="the-team">
       <h1>El equipo</h1><br/>
       <p>
@@ -86,7 +101,7 @@ Nuestro equipo está conformado por más de 50 creativos multidisciplinarios ent
     <div className="foto-grupal">
       Aqui va una foto enorme
     </div>
-    <div className="random-text" data-aos="fade-up">
+    {/*<div className="random-text" data-aos="fade-up">
       <h1>¿QUIERES SER UN ENDORINO?</h1><br/>
       <a href="#" class="myButton">SI QUIERO</a>
     </div>
@@ -106,7 +121,7 @@ Nuestro equipo está conformado por más de 50 creativos multidisciplinarios ent
     </div>
     <div className="button">
     <a href="#" class="myButton">VER MAS</a>
-    </div>
+  </div>*/}
     
   </div>)
 }

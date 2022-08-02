@@ -9,7 +9,10 @@ export default function Footer(){
 
     return <><footer>
     <div className="footer-left">
-    <p>© 2022 kINETIC. All rights reserved</p> <div className="div-social"><a href="https://www.instagram.com/webleadsok/"><FaInstagramSquare className="social"/></a><a href="https://www.google.com"><FaFacebookF className="social"/></a><a href="https://google.com"><FaLinkedinIn className="social"/></a><a href="https://www.google.com"><FaGithubSquare className="social"/></a></div>
+    <p>© 2022 kINETIC. All rights reserved</p> <div className="div-social"><a href="https://www.instagram.com/kinetic.agency/"><FaInstagramSquare className="social"/></a>
+    <a href="https://www.facebook.com/thekineticmarketing.agency/"><FaFacebookF className="social"/></a>
+    
+    <a href="https://www.linkedin.com/company/thekinetic/"><FaLinkedinIn className="social"/></a></div>
     </div>
     <div className="footer-right">
     <a href=""> Terms  &amp;  Conditions  </a>|

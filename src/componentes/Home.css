@@ -26,10 +26,16 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
 }
 .cards{
   display:flex;
-  gap: 10px;
   padding:50px;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
+.cards img{
+  width: 30%;
+  border-radius: 15px;
+}
+
 .video{
   height:500px;
   display:flex;
