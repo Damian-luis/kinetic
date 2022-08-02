@@ -13,6 +13,9 @@ export default function Home(){
     return (<div className="App">
     <div className="principal" data-aos="fade-down" data-aos-duration="2000">
       <h1>AGENCIA DE PUBLICIDAD</h1>
+      <div className="portada">
+      <img src={require("../assets/logo-portada.png")} className="portada"/>
+      </div>
     </div>
     
 
@@ -33,9 +36,9 @@ export default function Home(){
         <img src={require("../assets/9.png")} className="card"/>
       
     </div>
-    <div className="button">
+    {/*<div className="button">
     <Link to="what-we-do" className="myButton">VER TODOS</Link>
-    </div>
+    </div>*/}
     <div className="some-text" data-aos="zoom-out">
         <div className="what-we-do"><h4>THIS IS</h4> <span className="what">WHAT WE DO </span><h4>EVERYDAY</h4></div>
         <div className="somos">
@@ -70,7 +73,7 @@ export default function Home(){
     </div>
     */}
 
-
+<div className="video"><h1>Diseñamos proyectos para:</h1></div>
 
 <div className="clientes" data-aos="zoom-in">
         <img src={require("../assets/logos/4.png")} className="logo"/>
@@ -83,10 +86,20 @@ export default function Home(){
     
 
     <div className="the-team">
-      <h1>El equipo</h1><br/>
-      <p>
-Somos una comunidad creativa llevando endorfinas a cada rincón del mundo. Creemos que las historias de éxito son un medio para alcanzar la felicidad y somos el medio que impulsa a marcas excepcionales a superar sus metas.
-Nuestro equipo está conformado por más de 50 creativos multidisciplinarios entre los 18 y 38 años, con un orgulloso 60% de mujeres</p>
+      <div className="foto-div">
+      <img src={require("../assets/smart-business.jpg")} className="foto"/>
+      </div>
+
+      <div className="the-team-text">
+      <h1>Smart Business</h1><br/>
+      <p>No somos una agencia de marketing digital más: Somos el escalón para saltar al siguiente nivel con tu proyecto.<br/>
+      Talento, innovación, experiencia y creatividad son nuestras bases. Nos encanta la tecnología, sacarle todo el jugo al dato
+      y trabajar de forma incansable en lo que tu marca necesita. Nada de adornos: Nuestra apuesta profesional va directo al grano.
+      Aqui no existen las fórmulas mágicas, solo el trabajo duro de cada dia y una metodología concreta y especializada.
+      
+      </p><a href="https://wa.me/5493517697475" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></div>
+
+
     </div>{/*
     <div className="foto-grupal">
       Aqui va una foto enorme
