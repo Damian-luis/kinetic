@@ -5,15 +5,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Nav.css"
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg" style={{position: "sticky",top: "0",zIndex: "100"}} >
+    <Navbar  expand="lg" style={{position: "sticky",top: "0",zIndex: "100",backgroundColor:"#0b0a24"}} >
       <Container>
         <Navbar.Brand href="#home"> <img src={require("../assets/logo.png")} className="logofavi"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{paddingLeft:"150px"}}>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#the-team">Quienes somos</Nav.Link>
-            <Nav.Link href="/contact">Contacto</Nav.Link>
+            <Nav.Link href="#home"><p className="hov">Home</p></Nav.Link>
+            <Nav.Link href="#the-team"><p className="hov">Quienes somos</p></Nav.Link>
+            <Nav.Link href="#the-team"><p className="hov"> Contacto</p></Nav.Link>
            {/*  <NavDropdown title="Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

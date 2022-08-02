@@ -5,6 +5,10 @@
     font-weight:900;
     
 }
+p{
+    color: #f1f1f1;
+}
+.hov:hover{color:#b402fd}
 .Navbar{
     position: sticky;
     top: 0;

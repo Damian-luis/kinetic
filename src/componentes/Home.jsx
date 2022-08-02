@@ -11,7 +11,7 @@ export default function Home(){
         Aos.init({duration:2000})
     },[])
     return (<div className="App">
-    <div className="principal" data-aos="fade-down" data-aos-duration="2000">
+    <div className="principal" data-aos="fade-down" data-aos-duration="2000" href="home" >
       <h1>AGENCIA DE PUBLICIDAD</h1>
       <div className="portada">
       <img src={require("../assets/logo-portada.png")} className="portada"/>
@@ -76,12 +76,19 @@ export default function Home(){
 <div className="video"><h1>Diseñamos proyectos para:</h1></div>
 
 <div className="clientes" data-aos="zoom-in">
-        <img src={require("../assets/logos/4.png")} className="logo"/>
+  {/*  
         <img src={require("../assets/logos/5.png")} className="logo"/>
         <img src={require("../assets/logos/6.png")} className="logo"/>
-        <img src={require("../assets/logos/7.png")} className="logo"/>
+        
         <img src={require("../assets/logos/9.png")} className="logo"/>
-        <img src={require("../assets/logos/10.png")} className="logo"/>
+        <img src={require("../assets/logos/10.png")} className="logo"/>*/}
+        
+        
+       <img src={require("../assets/logos/advanced.png")} className="logob"/>
+       <img src={require("../assets/logos/7.png")} className="logo"/>
+        <img src={require("../assets/logos/genesis.png")} className="logob"/>
+        <img src={require("../assets/logos/4.png")} className="logo"/>
+        <img src={require("../assets/logos/mati.png")} className="logob"/>
     </div>
     
 
@@ -96,9 +103,11 @@ export default function Home(){
       Talento, innovación, experiencia y creatividad son nuestras bases. Nos encanta la tecnología, sacarle todo el jugo al dato
       y trabajar de forma incansable en lo que tu marca necesita. Nada de adornos: Nuestra apuesta profesional va directo al grano.
       Aqui no existen las fórmulas mágicas, solo el trabajo duro de cada dia y una metodología concreta y especializada.
-      
-      </p><a href="https://wa.me/5493517697475" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></div>
-
+      <div className="damos"><p>¿Damos el paso para ser mas SMART?</p></div>
+      </p>
+      <div className="wpp">
+      <a href="https://wa.me/5493517697475" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></div>
+      </div>
 
     </div>{/*
     <div className="foto-grupal">
