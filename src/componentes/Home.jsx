@@ -1,11 +1,6 @@
 import React from "react";
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { default as logo1 } from "../assets/1.svg";
-import { default as logo2 } from "../assets/2.svg";
-import { default as logo3 } from "../assets/3.svg";
-import { default as logo4 } from "../assets/4.svg";
-import { default as logo5 } from "../assets/5.svg";
 import {useEffect} from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -19,15 +14,12 @@ export default function Home(){
     <div className="principal" data-aos="fade-down" data-aos-duration="2000">
       <h1>AGENCIA DE PUBLICIDAD</h1>
     </div>
-    <div className="imagenes" data-aos="zoom-in">
-    <img src={logo1} className="gradient1"/>
-    <img src={logo2} className="gradient1"/>
-    <img src={logo3} className="gradient1"/>
-    <img src={logo4} className="gradient1"/>
-    <img src={logo5} className="gradient1"/>
-    </div>
+    
+
+
+
     <div className="video"><h1>Algunos de nuestros trabajos de branding y marketing digital</h1></div>
-    <div className="cards" data-aos="fade-up" data-aos-duration="3000">
+    <div className="cards" data-aos="fade-up" data-aos-duration="1000">
       
         
         <img src={require("../assets/1.png")} className="card"/>
@@ -54,22 +46,22 @@ export default function Home(){
       <div className="card-text">
         <h3 className="ancho">BRANDING​</h3>
         <p>Sabemos que una marca es mucho más que su imagen. Creamos historias, trazamos el camino para el nacimiento y la evolución de ideas y las aterrizamos en soluciones gráficas que capturan la atención de la audiencia.</p>
-        <button className="myButton">CONOCE MAS</button>
+        
       </div>
       <div className="card-text">
         <h3 className="ancho">MARKETING</h3>
         <p>Nos enfocamos en crear valor para tus clientes, cultivar a la comunidad para las empresas y elevar su reconocimiento de marca a través de metodologías enfocadas a estrategias digitales, creación de contenido y campañas creativas.</p>
-        <button className="myButton">CONOCE MAS</button>
+        
       </div>
       <div className="card-text">
         <h3 className="ancho">MULTIMEDIA</h3>
         <p>Utilizamos diferentes canales de expresión, desde texto, imágenes, ilustración, animación, edición de sonido y video, cualquier soporte necesario para presentar y comunicar tu marca de la mejor manera.</p>
-        <button className="myButton">CONOCE MAS</button>
+        
       </div>
       <div className="card-text">
         <h3 className="ancho">WEB</h3>
         <p>Creamos sitios web atractivos y funcionales combinando un moderno diseño de interfaz de usuario (UI) con una amigable experiencia de usuario (UX),optimizando su posicionamiento en Google.</p>
-        <button className="myButton">CONOCE MAS</button>
+        
       </div>
     </div>
     {/* 
@@ -79,11 +71,8 @@ export default function Home(){
     */}
 
 
-<div className="clientes-text">
-      <p>Nuestros clientes</p>
-      <p>He aqui algunos de los clientes que han optado por nuestros servicios</p>
-    </div>
-    <div className="clientes">
+
+<div className="clientes" data-aos="zoom-in">
         <img src={require("../assets/logos/4.png")} className="logo"/>
         <img src={require("../assets/logos/5.png")} className="logo"/>
         <img src={require("../assets/logos/6.png")} className="logo"/>
@@ -91,17 +80,18 @@ export default function Home(){
         <img src={require("../assets/logos/9.png")} className="logo"/>
         <img src={require("../assets/logos/10.png")} className="logo"/>
     </div>
+    
 
     <div className="the-team">
       <h1>El equipo</h1><br/>
       <p>
 Somos una comunidad creativa llevando endorfinas a cada rincón del mundo. Creemos que las historias de éxito son un medio para alcanzar la felicidad y somos el medio que impulsa a marcas excepcionales a superar sus metas.
 Nuestro equipo está conformado por más de 50 creativos multidisciplinarios entre los 18 y 38 años, con un orgulloso 60% de mujeres</p>
-    </div>
+    </div>{/*
     <div className="foto-grupal">
       Aqui va una foto enorme
     </div>
-    {/*<div className="random-text" data-aos="fade-up">
+    <div className="random-text" data-aos="fade-up">
       <h1>¿QUIERES SER UN ENDORINO?</h1><br/>
       <a href="#" class="myButton">SI QUIERO</a>
     </div>
