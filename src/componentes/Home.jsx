@@ -103,11 +103,13 @@ export default function Home(){
       Talento, innovación, experiencia y creatividad son nuestras bases. Nos encanta la tecnología, sacarle todo el jugo al dato
       y trabajar de forma incansable en lo que tu marca necesita. Nada de adornos: Nuestra apuesta profesional va directo al grano.
       Aqui no existen las fórmulas mágicas, solo el trabajo duro de cada dia y una metodología concreta y especializada.
-      <div className="damos"><p>¿Damos el paso para ser mas SMART?</p></div>
       </p>
+      <a href="https://wa.me/5493517697475" className="damos">¿Damos el paso para ser mas SMART?</a>
+      {/* 
       <div className="wpp">
-      <a href="https://wa.me/5493517697475" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></div>
-      </div>
+      <a href="https://wa.me/5493517697475" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a></div>*/}
+      </div> 
+      
 
     </div>{/*
     <div className="foto-grupal">
