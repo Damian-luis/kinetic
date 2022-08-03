@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Nav.css"
 function BasicExample() {
   return (
-    <Navbar   style={{position: "sticky",top: "0",zIndex: "100",backgroundColor:"#0b0a24"}} >
+    <Navbar expand="lg"  style={{position: "sticky",top: "0",zIndex: "100",backgroundColor:"#0b0a24"}} >
       <Container>
         <Navbar.Brand href="#home"> <img src={require("../assets/logo.png")} className="logofavi"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
