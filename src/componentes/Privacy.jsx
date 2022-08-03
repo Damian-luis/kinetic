@@ -1,8 +1,10 @@
+import "./Privacy.css"
 export default function Privacy(){
     return (
         <div className="privacy">
-            <p>Kinetic Marketing Agency
-Aviso de Privacidad | Términos y Condiciones.
+            <h2>Kinetic Marketing Agency</h2>
+            <p>
+Aviso de Privacidad | Términos y Condiciones.<br /><br /><br /><br />
 Introducción
 Esta Política de Privacidad describe las prácticas de Kinetic Marketing con respecto a la información recopilada de los usuarios que acceden a nuestro sitio web en: www.thekineticmarketing.com, o que de otro modo comparten información personal con nosotros.
 ¿Qué tipo de información recopilamos?

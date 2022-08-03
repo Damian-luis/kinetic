@@ -15,8 +15,7 @@ export default function Footer(){
     <a href="https://www.linkedin.com/company/thekinetic/"><FaLinkedinIn className="social"/></a></div>
     </div>
     <div className="footer-right">
-    <a href=""> Terms  &amp;  Conditions  </a>|
-    <Link to="/privacy-policy">Privacy Policy</Link>
+    <Link to="/privacy">Terms  &amp;  Conditions and Privacy Policy</Link>
     
     </div>
     

@@ -27,4 +27,10 @@ p{
         display:none;
 
     }
+    .navbar-collapse{
+        padding-left: 0px!important;
+    }
+    .hov{
+        font-weight: 400;
+    }
   }

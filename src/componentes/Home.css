@@ -14,8 +14,11 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
   background-color: #0b0a24;
   color:#f1f1f1
 }
+.logofavia{
+  display:none
+}
 .principal h1{
-  font-size:110px;
+  font-size:90px;
   font-weight: 900;
   font-family: "Mulish", Sans-serif;
 }
@@ -198,6 +201,9 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
   text-align: center;
   padding: 40px;
 }
+.the-team-text p{
+  margin-bottom:50px
+}
 .whatsapp {
   
   padding-top:2px;
@@ -245,8 +251,17 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     justify-content: flex-end;
 }
 @media only screen and (max-width: 600px) {
+  .logofavia{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    width: 90px;
+  height: 50px;
+  }
   .principal{
-    padding: 0px;
+    padding:0px;
+    padding-left: 10px!important;
   }
   .principal h1{
     font-size:35px;
@@ -256,7 +271,8 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     padding: 50px;
   }
   .video h1{
-    font-size:20px
+    font-size:20px;
+    font-weight: 400
   }
   .portada{
     display:none
@@ -268,11 +284,16 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     padding:0px
   }
   .cards img{
-    width: 80%;
+    width: 60%;
   }
+  .what-we-do h4{
+    font-weight: 200;
+  }
+  
   .somos{
     width:90%;
-    padding:0px
+    padding:0px;
+    margin-top: 20px;
   }
   .cards-text{
     width:100%;
@@ -307,6 +328,7 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
   }
   .what-we-do{
     flex-direction:column;
+    row-gap:20px
   }
   .what{
     font-size: 30px;
@@ -315,6 +337,12 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     display: flex;
     flex-direction:column;
   }
+  
+  .the-team-text h1{
+    border-bottom: 2px solid #b402fd;
+    padding-bottom: 20px;
+    
+  }
   .foto-div{
     display:none
   }
@@ -322,6 +350,7 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     width:100%;
     padding:0px
   }
+  
   .clientes{
     display: flex;
     flex-direction:column;
@@ -329,13 +358,21 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     width: 90%;
     margin: 0 auto;
     row-gap: 50px;
-
+    align-items:center;
   }
-  .clientes img{
-    width:60%;
-    margin: 0 auto;
+  .logob{
+    width:130px;
+    height: 30px;
+  }
+  .logo{
+    width: 100px;
+    height: 100px;
   }
   .video{
     width: 90%;
+  }
+  .some-text{
+    padding-top: 60px;
+    padding-bottom: 30px;
   }
 }

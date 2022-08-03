@@ -11,7 +11,9 @@ export default function Home(){
         Aos.init({duration:2000})
     },[])
     return (<div className="App">
+      
     <div className="principal" data-aos="fade-down" data-aos-duration="2000" href="home" >
+    <img src={require("../assets/logo.png")} className="logofavia"/>
       <h1>AGENCIA DE PUBLICIDAD</h1>
       <div className="portada">
       <img src={require("../assets/logo-portada.png")} className="portada"/>
@@ -99,7 +101,7 @@ export default function Home(){
 
       <div className="the-team-text">
       <h1>Smart Business</h1><br/>
-      <p>No somos una agencia de marketing digital más: Somos el escalón para saltar al siguiente nivel con tu proyecto.<br/>
+      <p className="espacio">No somos una agencia de marketing digital más: Somos el escalón para saltar al siguiente nivel con tu proyecto.<br/>
       Talento, innovación, experiencia y creatividad son nuestras bases. Nos encanta la tecnología, sacarle todo el jugo al dato
       y trabajar de forma incansable en lo que tu marca necesita. Nada de adornos: Nuestra apuesta profesional va directo al grano.
       Aqui no existen las fórmulas mágicas, solo el trabajo duro de cada dia y una metodología concreta y especializada.
