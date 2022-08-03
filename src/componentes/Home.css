@@ -249,8 +249,14 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     padding: 0px;
   }
   .principal h1{
-    font-size:45px;
+    font-size:35px;
 
+  }
+  .video{
+    padding: 50px;
+  }
+  .video h1{
+    font-size:20px
   }
   .portada{
     display:none
@@ -273,7 +279,7 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
-    padding: 15px 0px;
+    padding: 20px
   }
   .card-text{
     width:100%;
@@ -322,10 +328,14 @@ background: radial-gradient(circle, rgba(251,63,250,1) 0%, rgba(65,23,118,1) 69%
     flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
+    row-gap: 50px;
 
   }
   .clientes img{
     width:60%;
     margin: 0 auto;
+  }
+  .video{
+    width: 90%;
   }
 }
