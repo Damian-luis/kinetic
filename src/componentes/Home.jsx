@@ -12,7 +12,7 @@ export default function Home(){
     },[])
     return (<div className="App">
       
-    <div className="principal" data-aos="fade-down" data-aos-duration="2000" href="home" >
+    <div className="principal" data-aos="fade-down" data-aos-duration="2000" id="home" >
     <img src={require("../assets/logo.png")} className="logofavia"/>
       <h1>AGENCIA DE PUBLICIDAD</h1>
       <div className="portada">

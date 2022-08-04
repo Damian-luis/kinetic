@@ -8,11 +8,15 @@
 p{
     color: #f1f1f1;
 }
-.hov:hover{color:#b402fd}
+.hov:hover{
+    
+    border-bottom: 1px solid #b402fd
+}
 .Navbar{
     position: sticky;
     top: 0;
     z-index: 200!important;
+    
 }
 .logofavi{
     width: 90px;
