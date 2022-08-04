@@ -6,8 +6,8 @@ import Contact from "./componentes/Contact"
 import Trabajos from "./componentes/Trabajos"
 import Clientes from "./componentes/Clients"
 import Privacy from "./componentes/Privacy"
-import ScrollToTop from "./componentes/ScrollToTop"
-import { BrowserRouter as Router } from "react-router-dom";
+
+
 import {
   Switch,
   Route,
@@ -16,8 +16,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  return (<Router>
-    <ScrollToTop/>
+  return (
     <div className="App" style={{overflow: 'hidden'}}>
       
       <Nav />
@@ -41,7 +40,7 @@ function App() {
       
       </Routes>
      <Footer/>
-    </div></Router>
+    </div>
   );
 }
 
